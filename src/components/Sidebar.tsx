@@ -47,7 +47,9 @@ export const Sidebar = () => {
               to={item.url}
               className={`flex items-center gap-3 px-3 py-3 rounded-lg transition-all duration-200 ${
                 isActive(item.url)
-                  ? "bg-gradient-to-r from-orange-500 to-orange-600 text-black shadow-lg shadow-orange-500/30"
+                  ? isHovered 
+                    ? "bg-gradient-to-r from-orange-500 to-orange-600 text-black shadow-lg shadow-orange-500/30"
+                    : "text-orange-400" // No background when collapsed but active
                   : "text-orange-300 hover:bg-orange-500/20 hover:text-orange-400"
               }`}
             >
