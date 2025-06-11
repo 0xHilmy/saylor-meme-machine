@@ -47,8 +47,8 @@ export const MemeGallery = () => {
   return (
     <div className="space-y-6">
       <div className="text-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-2">Michael Saylor Meme Gallery</h2>
-        <p className="text-gray-600">Kumpulan meme terbaik dari komunitas Bitcoin</p>
+        <h2 className="text-2xl font-bold text-orange-400 mb-2">Michael Saylor Meme Gallery</h2>
+        <p className="text-orange-300/80">Kumpulan meme terbaik dari komunitas Bitcoin</p>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -58,7 +58,7 @@ export const MemeGallery = () => {
             className="group cursor-pointer"
             onClick={() => setSelectedMeme(meme)}
           >
-            <div className="relative overflow-hidden rounded-xl bg-white shadow-md group-hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-2">
+            <div className="relative overflow-hidden rounded-xl bg-gray-800/50 border border-orange-500/20 shadow-lg group-hover:shadow-xl group-hover:shadow-orange-500/20 transition-all duration-300 transform group-hover:-translate-y-2 group-hover:border-orange-500/50">
               <div className="aspect-square overflow-hidden">
                 <img
                   src={meme.url}
@@ -66,11 +66,8 @@ export const MemeGallery = () => {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
-              <div className="p-4">
-                <h3 className="font-semibold text-gray-800 mb-1">{meme.title}</h3>
-                <p className="text-sm text-gray-600">{meme.description}</p>
-              </div>
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 rounded-xl" />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 rounded-xl" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
             </div>
           </div>
         ))}
