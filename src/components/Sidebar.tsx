@@ -52,7 +52,7 @@ export const Sidebar = () => {
               }`}
             >
               <item.icon className="w-5 h-5 flex-shrink-0" />
-              <span className={`font-medium text-sm transition-opacity duration-300 whitespace-nowrap ${
+              <span className={`font-medium text-sm transition-opacity duration-300 whitespace-nowrap truncate ${
                 isHovered ? "opacity-100" : "opacity-0"
               }`}>
                 {item.title}

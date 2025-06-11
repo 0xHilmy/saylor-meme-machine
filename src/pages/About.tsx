@@ -9,7 +9,7 @@ const About = () => {
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">About This Website</h2>
           <p className="text-lg text-gray-600">
-            Website generator meme Michael Saylor untuk komunitas Bitcoin Indonesia
+            Michael Saylor meme generator website for the Bitcoin community
           </p>
         </div>
 
@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Bitcoin Enthusiast</h3>
             <p className="text-gray-600 text-sm">
-              Dibuat oleh dan untuk komunitas Bitcoin yang mengapresiasi wisdom dari Michael Saylor
+              Created by and for the Bitcoin community who appreciate Michael Saylor's wisdom
             </p>
           </div>
 
@@ -30,7 +30,7 @@ const About = () => {
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Open Source</h3>
             <p className="text-gray-600 text-sm">
-              Website ini dibuat dengan teknologi modern dan dikembangkan secara open source
+              This website is built with modern technology and developed as open source
             </p>
           </div>
 
@@ -40,32 +40,31 @@ const About = () => {
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Community Driven</h3>
             <p className="text-gray-600 text-sm">
-              Dikembangkan dengan cinta untuk komunitas crypto dan meme lovers
+              Developed with love for the crypto community and meme lovers
             </p>
           </div>
         </div>
 
         <div className="bg-white rounded-xl p-8 shadow-md">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Tentang Michael Saylor</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">About Michael Saylor</h3>
           <p className="text-gray-600 mb-4">
-            Michael Saylor adalah CEO MicroStrategy dan salah satu advocate Bitcoin terbesar di dunia. 
-            Beliau dikenal dengan quote-quote inspiratif tentang Bitcoin dan teknologi yang sering 
-            menjadi viral di media sosial.
+            Michael Saylor is the CEO of MicroStrategy and one of the biggest Bitcoin advocates in the world. 
+            He is known for his inspirational quotes about Bitcoin and technology that often go viral on social media.
           </p>
           <p className="text-gray-600">
-            Website ini dibuat sebagai tribute kepada beliau dan untuk memberikan platform bagi 
-            komunitas untuk membuat dan berbagi meme-meme kreatif yang terinspirasi dari wisdom 
-            Michael Saylor tentang Bitcoin dan masa depan digital.
+            This website was created as a tribute to him and to provide a platform for 
+            the community to create and share creative memes inspired by Michael Saylor's wisdom 
+            about Bitcoin and the digital future.
           </p>
         </div>
 
         <div className="bg-gradient-to-r from-blue-500 to-orange-500 rounded-xl p-8 text-white text-center">
-          <h3 className="text-xl font-semibold mb-4">Mari Berkolaborasi!</h3>
+          <h3 className="text-xl font-semibold mb-4">Let's Collaborate!</h3>
           <p className="mb-4">
-            Punya ide untuk mengembangkan website ini? Atau ingin berkontribusi dengan meme original?
+            Have ideas to improve this website? Or want to contribute with original memes?
           </p>
           <p className="text-sm opacity-90">
-            Hubungi kami di social media atau kirim pull request di GitHub!
+            Contact us on social media or send a pull request on GitHub!
           </p>
         </div>
       </div>
