@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { Scroll } from "lucide-react";
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,12 +13,23 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-black to-indigo-900">
+      <div className="text-center space-y-6 bg-black/40 backdrop-blur-sm p-8 rounded-xl border border-purple-500/20">
+        <div className="flex items-center justify-center gap-2 text-4xl">
+         
+          <h1 className="font-bold text-purple-300">404</h1>
+      
+        </div>
+        <div className="space-y-2">
+          <p className="text-xl text-purple-300/80">The prophecy you seek is lost in the mists...</p>
+          <p className="text-purple-300/60 text-sm italic">"Not all who wander are lost, but this page certainly is"</p>
+        </div>
+        <a 
+          href="/" 
+          className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors"
+        >
+          <Scroll className="w-4 h-4" />
+          <span>Return to the Prophecy Hall</span>
         </a>
       </div>
     </div>

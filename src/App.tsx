@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,6 +8,7 @@ import Generator from "./pages/Generator";
 import Original from "./pages/Original";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import BtcChart from "./pages/BtcChart";
 
 const queryClient = new QueryClient();
 
@@ -21,7 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/generator" element={<Generator />} />
-          <Route path="/original" element={<Original />} />
+          <Route path="/btc-chart" element={<BtcChart />} />
           <Route path="/about" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

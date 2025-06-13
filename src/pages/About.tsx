@@ -1,70 +1,47 @@
-
 import { Layout } from "../components/Layout";
-import { Bitcoin, Code, Heart } from "lucide-react";
+import { Sparkles, Scroll, Book, Users } from "lucide-react";
 
 const About = () => {
   return (
     <Layout>
-      <div className="max-w-4xl mx-auto space-y-8">
+      <div className="max-w-4xl mx-auto space-y-4 py-4">
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">About This Website</h2>
-          <p className="text-lg text-gray-600">
-            Michael Saylor meme generator website for the Bitcoin community
+          <h2 className="text-3xl font-bold text-purple-300 mb-4 flex items-center justify-center gap-2">
+            
+            The Saylor's Prophecy Machine
+           
+          </h2>
+          <p className="text-lg text-purple-300/80">
+            Where Bitcoin maximalism meets meme magic
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-white rounded-xl p-6 shadow-md text-center">
-            <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Bitcoin className="w-6 h-6 text-orange-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Bitcoin Enthusiast</h3>
-            <p className="text-gray-600 text-sm">
-              Created by and for the Bitcoin community who appreciate Michael Saylor's wisdom
-            </p>
-          </div>
+      
 
-          <div className="bg-white rounded-xl p-6 shadow-md text-center">
-            <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Code className="w-6 h-6 text-blue-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Open Source</h3>
-            <p className="text-gray-600 text-sm">
-              This website is built with modern technology and developed as open source
-            </p>
-          </div>
-
-          <div className="bg-white rounded-xl p-6 shadow-md text-center">
-            <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Heart className="w-6 h-6 text-green-600" />
-            </div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Community Driven</h3>
-            <p className="text-gray-600 text-sm">
-              Developed with love for the crypto community and meme lovers
-            </p>
-          </div>
-        </div>
-
-        <div className="bg-white rounded-xl p-8 shadow-md">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">About Michael Saylor</h3>
-          <p className="text-gray-600 mb-4">
-            Michael Saylor is the CEO of MicroStrategy and one of the biggest Bitcoin advocates in the world. 
-            He is known for his inspirational quotes about Bitcoin and technology that often go viral on social media.
+        <div className="bg-black/40 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-purple-500/20">
+          <h3 className="text-xl font-semibold text-purple-300 mb-4 flex items-center gap-2">
+            <Book className="w-5 h-5" />
+            The Creator's Note
+          </h3>
+          <p className="text-purple-300/70 mb-4">
+            Created by <a href="https://x.com/CryptQmy" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400">@CryptQmy</a>, 
+            this sacred meme generator was forged in the depths of crypto winter, powered by pure hopium and an unhealthy obsession with 
+            Michael Saylor's prophecies. 
           </p>
-          <p className="text-gray-600">
-            This website was created as a tribute to him and to provide a platform for 
-            the community to create and share creative memes inspired by Michael Saylor's wisdom 
-            about Bitcoin and the digital future.
+          <p className="text-purple-300/70">
+            Special thanks to <a href="https://x.com/GoMining_token" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-400">@GoMining_token</a> for 
+            inspiring this mystical creation. Remember, in a world of shitcoins and rugpulls, 
+            there's only one true digital gold - and Saylor's been stacking it since before it was cool! 🌟
           </p>
         </div>
 
-        <div className="bg-gradient-to-r from-blue-500 to-orange-500 rounded-xl p-8 text-white text-center">
-          <h3 className="text-xl font-semibold mb-4">Let's Collaborate!</h3>
-          <p className="mb-4">
-            Have ideas to improve this website? Or want to contribute with original memes?
+        <div className="bg-gradient-to-r from-purple-500/20 to-fuchsia-500/20 rounded-xl p-8 text-center backdrop-blur-sm border border-purple-500/20">
+          <h3 className="text-xl font-semibold text-purple-300 mb-4">Words of Wisdom</h3>
+          <p className="mb-4 text-purple-300/80">
+            "When in doubt, zoom out. When in fear, Saylor is here!" 
           </p>
-          <p className="text-sm opacity-90">
-            Contact us on social media or send a pull request on GitHub!
+          <p className="text-sm text-purple-300/60 italic">
+            "Not financial advice, just digital prophecies" 🔮
           </p>
         </div>
       </div>
